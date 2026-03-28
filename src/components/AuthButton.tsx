@@ -4,15 +4,14 @@ import { useState, useEffect } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, User } from 'firebase/auth';
 
-// Firebase 配置 - 需要你填入
+// Firebase 配置
 const firebaseConfig: Record<string, string> = {
-  // TODO: 填入你的 Firebase 配置
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
+  apiKey: "AIzaSyC--sneBF8HiLtV5Gd10plm-e7EJ9HEemM",
+  authDomain: "bgremover-2365d.firebaseapp.com",
+  projectId: "bgremover-2365d",
+  storageBucket: "bgremover-2365d.firebasestorage.app",
+  messagingSenderId: "147569311424",
+  appId: "1:147569311424:web:b83b4172ec4b02d05d7725"
 };
 
 export default function AuthButton() {
